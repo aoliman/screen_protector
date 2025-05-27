@@ -17,7 +17,7 @@ flutter:
         pluginClass: ScreenProtectorPlugin
         # Add Swift Package Manager support
         swift_package_manager: true
-        podspec: screen_protector.podspec
+       
 
 dependencies:
   flutter:
