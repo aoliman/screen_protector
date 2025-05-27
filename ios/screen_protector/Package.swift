@@ -16,13 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "screen_protector",
-            dependencies: ["screen_protector_objc"],
             path: "Sources/screen_protector"
         ),
-        .target(
-            name: "screen_protector_objc",
-            path: "Sources/screen_protector_objc",
-            publicHeadersPath: "include"
-        )
     ]
 )
