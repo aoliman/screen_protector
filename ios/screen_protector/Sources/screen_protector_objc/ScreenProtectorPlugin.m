@@ -10,6 +10,6 @@
 
 @implementation ScreenProtectorPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftScreenProtectorPlugin registerWithRegistrar:registrar];
+    [ScreenProtectorPlugin registerWithRegistrar:registrar];
 }
 @end
